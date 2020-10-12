@@ -1,1 +1,1 @@
-<?php include_once("./ASS1")?>
+<?php include_once("./index.html")?>
