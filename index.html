@@ -4,39 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="menu">
-        <ul>
-            <li>    <a href="index.html"> Home </a>  </li>
-            <li>
-                <div class="dropdown">
-                    <button class="drpbutn">Products</button>
-                        <div class="dropdown-content">
-                        <a href="#">Laptops</a>
-                        <a href="#">Cables</a>
-                        <a href="#">Accessories</a>
-                        </div>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.jpeg" width="100px" height="90px">
                 </div>
-            </li>
-            <li>    <a href="contact.html"> Contact </a>  </li>
-        </ul>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>
+                        Get Something Unique!!
+                    </h1>
+                </div>
+                <div class="col-2">
+                    <img src="images/extension.jpeg">
+                </div>
+            </div>
+        </div>
     </div>
-    <img id="firstpic" src="laptop6.jpg">
-    <!--Images-->
-    <div class="itemimages">
-        <img src="./laptop.jpg">
-        <img src="./laptop1.jpg">
-        <img src="./laptop2.jpg">
-        <img src="./laptop3.jpg">
-        <img src="./laptop4.jpg">
-        <img src="./laptop5.jpg">
-        <img src="./laptop6.jpg">
+    <!----->
+    <div class="category">
+        <h2 class="title">
+            Featured Categories
+        </h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/laptop.jpg">
+                    <h3> Laptop </h3>
+                </div>
+                <div class="col-3">
+                    <img src="images/mi_extension.png">
+                    <h3> MI Extension </h3>
+                </div>
+                <div class="col-3">
+                    <img src="images/laptop2.png">
+                    <h3> Laptop </h3>
+                </div>
+                <div class="col-3">
+                    <img src="images/laptop6.png">
+                    <h3> Laptop </h3>
+                </div>
+                <div class="col-3">
+                    <img src="images/extension1.png">
+                    <h3> Extension </h3>
+                </div>
+            </div>
+        </div>
     </div>
-    <!--Footer-->
-    <footer id= "footer">
-       &copy; Powered by Usman
-    </footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="ft-col-1">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="ft-col-2">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>You Tube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2020 - Usman</p>
+        </div>
+    </div>
 </body>
 </html>
